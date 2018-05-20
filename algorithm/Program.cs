@@ -18,6 +18,9 @@ namespace algorithm
             Helper.Watch(ExchangeSort.BubbleTwoSidesSort);
             Helper.Watch(ExchangeSort.QuickSort);
             Helper.Watch(ExchangeSort.ImprovedQuickSort);
+            Helper.Watch(MergeSort.NormalMergeSort);
+            Helper.Watch(MergeSort.TwoSidesMergeSort);
+            Helper.Watch(Radix.RadixSort);
         }
     }
 }

@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 public class Helper
 {
-    public static int[] InputList {get{return new int[]{4,6,3,2,7,1,5,8,9};}}
+    public static int[] InputList {get{return new int[]{41,62,33,24,75,16,57,89,98};}}
 
     public static void Watch(Func<int[],int[]> func){
         Stopwatch sw = new Stopwatch();
